@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeVideo ver 1.0.0</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>MeVideo</h1>
+  <label class="upload-button">
+    Subir Videos
+    <input type="file" id="video-upload" accept="video/*" multiple hidden>
+  </label>
+</header>
+
+<main id="gallery">
+  <!-- Aquí se muestran los videos -->
+</main>
+
+<div id="player-modal" class="hidden">
+  <button id="close-btn">✖</button>
+  <video id="main-video" controls autoplay></video>
+  <h2 id="video-title"></h2>
+</div>
+
+<script src="app.js"></script>
+
+    <p class="footer">&copy; 2025 MEVIDEO FOUNDATION AND OVI STUSDIOS.ALL RIGHTS RESERVED MEVIDEO.</p>
+<p>Ver. 1.0.0</p>
+</body>
+</html>
